@@ -1,0 +1,19 @@
+{
+    "API_URL_GESTTA": "https://api.gestta.com.br",
+    "STATUS_EMPRESA": {
+        "PRODUCTION": "Produção"
+    },
+    "TYPE": {
+        "RECURRENT": "Recorrentes",
+        "SERVICE_ORDER": "Ordens de serviço",
+        "TEMPLATE": "Ordens de serviço padronizadas"
+    },
+    "SUBTYPE": {
+        "AUTOMATIC": "Recorrentes automáticas",
+        "FREE": "Ordens de serviço livres"
+    },
+    "STATUS": {
+        "DISCONSIDERED": "Desconsideradas",
+        "DONE": "Concluídas"
+    }
+}
