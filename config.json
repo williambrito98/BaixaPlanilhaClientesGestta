@@ -15,5 +15,14 @@
     "STATUS": {
         "DISCONSIDERED": "Desconsideradas",
         "DONE": "Concluídas"
-    }
+    },
+    "EMAIL": {
+        "TO": [
+            "williambrito199850@gmail.com"
+        ],
+        "FROM": "contato@hubbotsautomacoes.com.br",
+        "SUBJECT": "Mensagem Automática - Robo Envia Arquivo BI"
+    },
+    "FILE_NAME": "Tarefas por Cliente _ BI_BaseCompleta.xlsx",
+    "PATH_SAIDA" : "\\\\26.35.80.194\\newdados\\ADMINISTRATIVO\\DASH\\Relatorio Atividades\\Tarefas por Cliente _ BI_BaseCompleta.xlsx"
 }
