@@ -38,5 +38,13 @@ module.exports = {
     }
 
     return newDate.toLocaleDateString('pt-br')
+  },
+
+  getFullHours: function (date) {
+    const newDate = new Date(date)
+    if (newDate.toString() === 'Invalid Date') {
+      return ''
+    }
+    return `${newDate.getHours()}:${newDate.getMinutes()}`
   }
 }
