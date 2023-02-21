@@ -10,7 +10,7 @@ module.exports = class Email {
 
   /**
    *
-   * @param {{from: string, to: string,subject : string, body: string}} data
+   * @param {{from: string, to: string,subject : string, body: string, attachments: Array<{content: string, filename: string, type: string }>}} data
    */
   async send (data) {
     sendGridEmail.setApiKey(process.env.API_KEY_EMAIL)
@@ -18,7 +18,8 @@ module.exports = class Email {
       from: data.from,
       to: data.to,
       subject: data.subject,
-      html: this.#handlerTemplate(data.body)
+      html: this.#handlerTemplate(data.body),
+      attachments: data.attachments
     })
   }
 
