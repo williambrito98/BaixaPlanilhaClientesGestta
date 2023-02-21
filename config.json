@@ -10,7 +10,9 @@
     },
     "SUBTYPE": {
         "AUTOMATIC": "Recorrentes automáticas",
-        "FREE": "Ordens de serviço livres"
+        "FREE": "Ordens de serviço livres",
+        "WORKFLOW": "Workflows",
+        "TEMPLATE": "Ordens de serviço padronizadas"
     },
     "STATUS": {
         "DISCONSIDERED": "Desconsideradas",
@@ -24,5 +26,10 @@
         "SUBJECT": "Mensagem Automática - Robo Envia Arquivo BI"
     },
     "FILE_NAME": "Tarefas por Cliente _ BI_BaseCompleta.xlsx",
-    "PATH_SAIDA" : "\\\\26.35.80.194\\newdados\\ADMINISTRATIVO\\DASH\\Relatorio Atividades\\Tarefas por Cliente _ BI_BaseCompleta.xlsx"
+    "SEND_EMAIL_ON_GENERATE_REPORT": true,
+    "SEND_EMAIL_ON_ERROR_REPORT": true,
+    "SEND_REPORT_TO_FOLDER_SHARED": false,
+    "SEND_REPORT_FOR_EMAIL": true,
+    "SHEET_REPORT_NAME": "Sheet1",
+    "CONTENT_TYPE": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 }
