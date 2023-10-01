@@ -1,6 +1,6 @@
-const request = require('./utils/request')
-const CONFIG = require('../config.json')
-const { getYear, getLongMonth, getDay, getFullDate, getFullHours } = require('./utils/date')
+const request = require('../utils/request')
+const CONFIG = require('../../config.json')
+const { getYear, getLongMonth, getDay, getFullDate, getFullHours } = require('../utils/date')
 
 /**
  * @param {string} token

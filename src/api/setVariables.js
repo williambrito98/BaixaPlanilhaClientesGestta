@@ -1,6 +1,6 @@
 const { join } = require('path')
 const { existsSync, mkdirSync } = require('fs')
-const CONFIG = require('../config.json')
+const CONFIG = require('../../config.json')
 
 module.exports = function setVariables () {
   global.pathSaida = join(process.cwd(), 'download')
